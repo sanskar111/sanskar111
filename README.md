@@ -70,6 +70,31 @@ Working with **.NET, Angular, and React**.
 ![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=F4C542)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=F4C542)
 
+<!-- BLOG-SECTION:START -->
+<!-- BLOG-POST-LIST:START -->
+
+<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-SECTION:END -->
+
+<!-- WAKA-SECTION:START -->
+<!--START_SECTION:waka-->
+
+<!--END_SECTION:waka-->
+<!-- WAKA-SECTION:END -->
+
+## 🃏 Daily dev joke
+
+<!-- DAILY-JOKE:START -->
+<!-- JOKE-DATE:2026-10-12 -->
+<blockquote>Why do programmers prefer using the dark mode?<br />Because light attracts bugs.</blockquote>
+
+<sub>Programming joke · 2026-10-12 IST · <a href="https://jokeapi.dev/">JokeAPI</a></sub>
+<!-- DAILY-JOKE:END -->
+
+<!-- LAST-UPDATED:START -->
+<p align="center"><sub>Last updated: 12 Oct 2026 · 03:02 PM IST</sub></p>
+<!-- LAST-UPDATED:END -->
+
 <details>
 <summary><strong>📡 Activity radar</strong></summary>
 
