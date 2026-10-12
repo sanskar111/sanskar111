@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+<title id="title">Sanskar Gupta â€” animated developer terminal</title>
+<desc id="desc">whoami: Sanskar Gupta, Full Stack Developer since 11 August 2025. skills: .NET, Angular, React, TypeScript, Node.js, WebRTC, Kotlin. hire_me: github.com/sanskar111. Commands type in sequence and repeat every 20 seconds.</desc>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+<path d="M15 1H985Q999 1 999 15V49H1V15Q1 1 15 1Z" fill="#161B22"/>
+<circle cx="26" cy="25" r="6" fill="#F4C542"/><circle cx="48" cy="25" r="6" fill="#F4C542" opacity=".55"/><circle cx="70" cy="25" r="6" fill="#F4C542" opacity=".25"/>
+<text x="500" y="31" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="15">sanskar@gotham: ~/portfolio</text>
+<path d="M1 49H999" stroke="#30363D"/>
+<g font-family="monospace" font-size="20" fill="#C9D1D9">
+<defs><clipPath id="identity"><rect x="64" y="71" width="72" height="32"><animate attributeName="width" values="0;0;12;24;36;48;60;72;72;0;0" keyTimes="0;0.05;0.06;0.07;0.08;0.09;0.1;0.11;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></rect></clipPath></defs>
+<text x="28" y="95" fill="#F4C542">$<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="64" y="95" fill="#F4C542" textLength="72" lengthAdjust="spacingAndGlyphs" clip-path="url(#identity)">whoami</text>
+<text x="64" y="133" fill="#FFFFFF">Sanskar Gupta | Full Stack Developer<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.13;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="64" y="163" fill="#8B949E">Building across the stack since 11 Aug 2025.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.13;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<defs><clipPath id="skills"><rect x="64" y="195" width="168" height="32"><animate attributeName="width" values="0;0;12;24;36;48;60;72;84;96;108;120;132;144;156;168;168;0;0" keyTimes="0;0.25;0.2571;0.2643;0.2714;0.2786;0.2857;0.2929;0.3;0.3071;0.3143;0.3214;0.3286;0.3357;0.3429;0.35;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></rect></clipPath></defs>
+<text x="28" y="219" fill="#F4C542">$<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.25;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="64" y="219" fill="#F4C542" textLength="168" lengthAdjust="spacingAndGlyphs" clip-path="url(#skills)">cat skills.txt</text>
+<text x="64" y="257" fill="#F4C542">.NET / Angular / React<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.37;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="64" y="287" fill="#8B949E">TypeScript / Node.js / WebRTC / Kotlin<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.37;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<defs><clipPath id="contact"><rect x="64" y="319" width="144" height="32"><animate attributeName="width" values="0;0;12;24;36;48;60;72;84;96;108;120;132;144;144;0;0" keyTimes="0;0.5;0.5083;0.5167;0.525;0.5333;0.5417;0.55;0.5583;0.5667;0.575;0.5833;0.5917;0.6;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></rect></clipPath></defs>
+<text x="28" y="343" fill="#F4C542">$<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.5;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="64" y="343" fill="#F4C542" textLength="144" lengthAdjust="spacingAndGlyphs" clip-path="url(#contact)">./hire_me.sh</text>
+<text x="64" y="381" fill="#FFFFFF">Find me: github.com/sanskar111<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.62;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+<text x="64" y="411" fill="#8B949E">Explore the work. Start a conversation.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.62;0.96;0.98;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/></text>
+</g><rect x="930" y="23" width="8" height="4" fill="#F4C542"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" calcMode="discrete"/></rect></svg>
