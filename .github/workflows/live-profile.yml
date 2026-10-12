@@ -1,0 +1,74 @@
+name: Refresh live profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *' # Daily at 05:47 IST; GitHub may delay scheduled runs.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check optional sources
+        id: sources
+        env:
+          WAKA_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          if [ -n "$WAKA_KEY" ]; then
+            echo 'waka=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'waka=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Update rolling seven-day coding stats
+        if: steps.sources.outputs.waka == 'true'
+        continue-on-error: true
+        uses: athul/waka-readme@370590ad8da8f54282ed92aa42b7c25ecbd5a9a6 # master, 2026-02-18
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          TIME_RANGE: last_7_days
+          LANG_COUNT: '5'
+          SHOW_TIME: 'true'
+          SHOW_TOTAL: 'true'
+          SHOW_TITLE: 'true'
+          TARGET_BRANCH: main
+          TARGET_PATH: README.md
+
+      # WakaTime commits independently: checkout its latest result before editing.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch five latest blog posts
+        if: vars.BLOG_RSS_URL != ''
+        continue-on-error: true
+        uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # v1, 2026-08-10
+        with:
+          feed_list: ${{ vars.BLOG_RSS_URL }}
+          max_post_count: '5'
+          sort_order: desc
+          skip_commit: 'true'
+          enable_keepalive: 'false'
+
+      - name: Refresh daily joke and IST timestamp
+        run: python3 scripts/update_live_profile.py
+
+      - name: Publish live sections
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh live profile sections [skip ci]'
+            git push origin HEAD:main
+          fi
