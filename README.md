@@ -1,8 +1,6 @@
 <p align="center"><img src="./assets/gotham-banner.svg" width="100%" alt="Sanskar Gupta — Full Stack Developer. Black-and-gold skyline with a bat signal." /></p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=26&amp;duration=2800&amp;pause=1000&amp;color=F4C542&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=70&amp;lines=Sanskar+Gupta+%7C+Full+Stack+Developer;Sanskar+Gupta+%7C+.NET+%26+Angular;Sanskar+Gupta+%7C+React+%26+Real-Time+Web" alt="Sanskar Gupta — Full Stack Developer | .NET, Angular, React" />
-</p>
+<p align="center"><a href="https://github.com/sanskar111"><img src="./assets/terminal-intro.svg" width="100%" alt="Animated terminal: whoami reveals Sanskar Gupta, Full Stack Developer; cat skills.txt reveals .NET, Angular, React and project technologies; ./hire_me.sh reveals github.com/sanskar111." /></a></p>
 
 <p align="center">
   <strong>I build across the stack — from the interface to the API.</strong><br />
